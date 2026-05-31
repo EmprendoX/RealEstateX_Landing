@@ -38,7 +38,7 @@ export default function ContactSection() {
 
     if (!form.name.trim() || !form.email.trim()) {
       setStatus("error");
-      setErrorMsg("Por favor completá nombre y email.");
+      setErrorMsg("Por favor completa nombre y email.");
       return;
     }
 
@@ -56,7 +56,7 @@ export default function ContactSection() {
       setForm(INITIAL_FORM);
     } catch (err: any) {
       setStatus("error");
-      setErrorMsg(err.message || "Algo salió mal. Probá de nuevo o escribinos a hola@realestatex.com");
+      setErrorMsg(err.message || "Algo salió mal. Prueba de nuevo o escríbenos a hola@realestatex.com");
     }
   };
 
@@ -65,7 +65,7 @@ export default function ContactSection() {
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-12">
           <p className="text-indigo-400 font-semibold text-sm uppercase tracking-wider mb-3">
-            Agendá tu demo
+            Agenda tu demo
           </p>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
             Tu primer lead puede llegar
@@ -107,7 +107,7 @@ export default function ContactSection() {
             <h3 className="text-2xl font-bold mb-2">¡Recibido!</h3>
             <p className="text-slate-300">
               Te escribimos en menos de 24hs al email que dejaste para coordinar
-              tu demo. Si querés acelerar, mandanos un WhatsApp.
+              tu demo. Si quieres acelerar, mándanos un WhatsApp.
             </p>
             <button
               type="button"
@@ -185,7 +185,7 @@ export default function ContactSection() {
 
             <div>
               <label htmlFor="propertiesCount" className="block text-sm font-medium mb-2 text-slate-200">
-                ¿Cuántas propiedades manejás?
+                ¿Cuántas propiedades manejas?
               </label>
               <select
                 id="propertiesCount"
@@ -194,7 +194,7 @@ export default function ContactSection() {
                 onChange={handleChange}
                 className="w-full bg-slate-900 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
               >
-                <option value="">Elegí una opción</option>
+                <option value="">Elige una opción</option>
                 <option value="1-10">1 a 10</option>
                 <option value="11-30">11 a 30</option>
                 <option value="31-50">31 a 50</option>
@@ -214,7 +214,7 @@ export default function ContactSection() {
                 onChange={handleChange}
                 rows={3}
                 className="w-full bg-slate-900 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
-                placeholder="¿Ya tenés dominio? ¿De dónde nos conociste?"
+                placeholder="¿Ya tienes dominio? ¿De dónde nos conociste?"
               />
             </div>
 
@@ -240,10 +240,10 @@ export default function ContactSection() {
             </button>
 
             <p className="text-xs text-slate-500 text-center">
-              Te respondemos en menos de 24hs. Sin spam, sin contratos.
+              Te respondemos en menos de 24hs. Sin spam, sin permanencia. Facturamos con RFC.
               <br />
               <span className="text-slate-400">
-                Si en 60 días no recibís 5 leads cualificados, te devolvemos el 100% y te quedás con la web.
+                Si en 60 días no recibes 5 leads cualificados, te devolvemos el 100% y te quedas con la web.
               </span>
             </p>
           </form>

@@ -11,19 +11,19 @@ const STEPS: Step[] = [
     number: "01",
     title: "20 minutos en llamada",
     description:
-      "Nos contás de tu marca, tus colores y qué propiedades manejás. Sin jerga técnica, sin formularios eternos. Mandanos logo y datos por WhatsApp si querés.",
+      "Nos cuentas de tu marca, tus colores y qué propiedades manejas. Sin jerga técnica, sin formularios eternos. Mándanos logo y datos por WhatsApp si quieres.",
   },
   {
     number: "02",
     title: "Te entregamos la web en 48hs",
     description:
-      "Dominio listo, hasta 50 propiedades cargadas, SEO configurado y formulario activo. Vos solo aprobás. Si no llegamos en 48hs, no pagás.",
+      "Dominio listo, hasta 30 propiedades cargadas, SEO configurado y formulario activo. Tú solo apruebas. Si no llegamos en 48hs, no pagas.",
   },
   {
     number: "03",
-    title: "Empezás a recibir leads esta semana",
+    title: "Empiezas a recibir leads esta semana",
     description:
-      "Cuando alguien pregunta por una propiedad, te llega un email a Gmail con sus datos. Respondés desde donde ya trabajás. Cerrás operaciones.",
+      "Cuando alguien pregunta por una propiedad, te llega un email a Gmail con sus datos. Respondes desde donde ya trabajas. Cierras operaciones.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function HowItWorks() {
         <div className="mt-12 text-center">
           <p className="text-slate-600">
             Sin setup, sin instalación, sin aprender otro panel.{" "}
-            <span className="text-slate-900 font-semibold">Nosotros hacemos el trabajo — vos vendés.</span>
+            <span className="text-slate-900 font-semibold">Nosotros hacemos el trabajo — tú vendes.</span>
           </p>
         </div>
       </div>

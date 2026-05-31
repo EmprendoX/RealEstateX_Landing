@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 const SITE_TITLE = "RealEstateX — Tu web inmobiliaria con tu marca, lista en 48 horas";
 const SITE_DESC =
-  "Web profesional con tu dominio, SEO real, PDFs brandeados, calculadora de hipoteca y leads directos a tu Gmail. Para brokers independientes y agencias chicas. Sin contratos. Garantía de 60 días o tu plata de vuelta.";
+  "Web profesional para brokers inmobiliarios en México. Tu dominio, SEO real, PDFs brandeados, calculadora con tasas mexicanas y leads directos a tu Gmail. Desde $890 MXN/mes. Sin permanencia. Factura con RFC. Garantía de 60 días o tu dinero de vuelta.";
 
 export default function HomePage() {
   return (

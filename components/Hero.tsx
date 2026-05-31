@@ -33,7 +33,7 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed">
             Tu dominio, tu logo, tus colores. Leads directo a tu Gmail.
             Sin freelancers, sin contratos, sin pelearte con WordPress.{" "}
-            <span className="text-white font-semibold">O no pagás nada.</span>
+            <span className="text-white font-semibold">O no pagas nada.</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

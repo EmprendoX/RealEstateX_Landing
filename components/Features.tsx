@@ -16,7 +16,7 @@ const FEATURES: Feature[] = [
       </svg>
     ),
     title: "Tu marca, tu dominio",
-    description: "Dejá de ser un anuncio más entre 5.000. Tu logo, tus colores, tu dominio. El cliente te recuerda a vos — no al portal.",
+    description: "Deja de ser un anuncio más entre 5,000 en Inmuebles24. Tu logo, tus colores, tu dominio. El cliente te recuerda a ti — no al portal.",
   },
   {
     icon: (
@@ -34,7 +34,7 @@ const FEATURES: Feature[] = [
       </svg>
     ),
     title: "Leads a tu Gmail",
-    description: "El lead te llega a Gmail como un email normal. Respondés desde donde ya trabajás — sin paneles nuevos, sin extensiones, sin learning curve.",
+    description: "El lead te llega a Gmail como un email normal. Respondes desde donde ya trabajas — sin paneles nuevos, sin extensiones, sin curva de aprendizaje.",
   },
   {
     icon: (
@@ -52,7 +52,7 @@ const FEATURES: Feature[] = [
       </svg>
     ),
     title: "PDF brandeado de cada propiedad",
-    description: "Cada propiedad genera una ficha PDF con tu logo arriba. La mandás por WhatsApp o la imprimís para reuniones — siempre con tu marca, nunca con la del portal.",
+    description: "Cada propiedad genera una ficha PDF con tu logo arriba. La mandas por WhatsApp o la imprimes para reuniones — siempre con tu marca, nunca con la del portal.",
   },
   {
     icon: (
@@ -60,8 +60,8 @@ const FEATURES: Feature[] = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m-6 4h6m-6 4h6M5 5a2 2 0 012-2h10a2 2 0 012 2v14l-3-2-3 2-3-2-3 2V5z" />
       </svg>
     ),
-    title: "Calculadora de hipoteca local",
-    description: "Tasas de tu país precargadas. El que se queda 4 minutos moviendo sliders es el que está listo para comprar — y vos te enterás.",
+    title: "Calculadora de hipoteca con tasas MX",
+    description: "Tasas de BBVA, Banorte, Santander y Scotiabank precargadas. El que se queda 4 minutos moviendo sliders es el que está listo para comprar — y tú te enteras.",
   },
   {
     icon: (
@@ -79,7 +79,7 @@ const FEATURES: Feature[] = [
       </svg>
     ),
     title: "Panel admin simple",
-    description: "Subís propiedades, fotos y precios desde un panel limpio. Sin tocar código, sin esperarnos. Cambiás un precio a las 11pm y aparece online en 30 segundos.",
+    description: "Subes propiedades, fotos y precios desde un panel limpio. Sin tocar código, sin esperarnos. Cambias un precio a las 11pm y aparece online en 30 segundos.",
   },
 ];
 
@@ -92,14 +92,16 @@ export default function Features() {
             Lo que incluye
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-            Todo lo que tiene Idealista —
+            Todo lo que tiene Inmuebles24 —
             <br />
             <span className="text-slate-500">con tu marca y tus leads</span>
           </h2>
           <p className="text-lg text-slate-600">
             Web + carga de propiedades + SEO + PDF + calculadora + admin.{" "}
-            <span className="text-slate-900 font-semibold">Valor real: $5.444 USD.</span>{" "}
-            Tu precio hoy: $497 pago único o $97/mes.
+            <span className="text-slate-900 font-semibold">Valor real: $98,000 MXN.</span>{" "}
+            Tu precio hoy: <span className="text-slate-900 font-semibold">$7,990 MXN</span> pago único o <span className="text-slate-900 font-semibold">$890 MXN/mes</span>.
+            <br />
+            <span className="text-sm text-slate-500">+IVA. Factura con RFC, deducible al 100%.</span>
           </p>
         </div>
 
